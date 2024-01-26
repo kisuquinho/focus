@@ -9,15 +9,15 @@ const plans = [
         price: '129,90',
         advantages: <div className={styles.advantages}>
             <div className={styles.advantage}>
-                <img src="./public/included.svg" alt="" />
+                <img src="./included.svg" alt="" />
                 <p>Treino 2x na semana</p>
             </div>
             <div className={styles.advantage}>
-                <img src="./public/included.svg" alt="" />
+                <img src="./included.svg" alt="" />
                 <p>Horário livre</p>
             </div>
             <div className={styles.advantage}>
-                <img src="./public/included.svg" alt="" />
+                <img src="./included.svg" alt="" />
                 <p>Acesso a 1 programa</p>
             </div>
         </div>,
@@ -29,23 +29,23 @@ const plans = [
         price: '259,90',
         advantages: <div className={styles.advantages}>
         <div className={styles.advantage}>
-            <img src="./public/included.svg" alt="" />
+            <img src="./included.svg" alt="" />
             <p>Treino todos os dias</p>
         </div>
         <div className={styles.advantage}>
-            <img src="./public/included.svg" alt="" />
+            <img src="./included.svg" alt="" />
             <p>Horário livre</p>
         </div>
         <div className={styles.advantage}>
-            <img src="./public/included.svg" alt="" />
+            <img src="./included.svg" alt="" />
             <p>Acesso a todos os programas</p>
         </div>
         <div className={styles.advantage}>
-            <img src="./public/included.svg" alt="" />
+            <img src="./included.svg" alt="" />
             <p>Acompanhamento físico e nutricional</p>
         </div>
         <div className={styles.advantage}>
-            <img src="./public/included.svg" alt="" />
+            <img src="./included.svg" alt="" />
             <p>Avaliação física e teste de carga gratuitos</p>
         </div>
     </div>,

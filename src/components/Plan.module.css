@@ -66,3 +66,33 @@ h3 span {
   color: var(--clr-neutral-100);
   text-align: start;
 }
+
+@media screen and (max-width: 600px) {
+  .plan {
+    padding: 36px 24px 73px 24px;
+    transition: 0.5s ease;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .p_banner {
+    padding: 0px;
+  }
+
+  h3 {
+    font-size: 0.8rem;
+  }
+
+  .price {
+    font-size: 2rem;
+    padding-right: 32px;
+  }
+
+  .price::after {
+    font-size: 0.8rem;
+  }
+
+  .plan p {
+    font-size: 0.8rem;
+  }
+}

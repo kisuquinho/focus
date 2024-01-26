@@ -23,3 +23,11 @@
   border-radius: 50%;
   outline: 2px solid var(--clr-neutral-300);
 }
+
+@media screen and (max-width: 480px) {
+  .testimonial {
+    background-color: var(--clr-neutral-700);
+    border-radius: 20px;
+    padding: 32px;
+  }
+}

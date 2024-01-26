@@ -40,4 +40,11 @@ nav a:hover {
   nav {
     display: none;
   }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 12px 0px;
+  }
 }
