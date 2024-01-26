@@ -25,10 +25,10 @@ const Footer = () => {
                             <h5>Mídias Sociais</h5>
                             <div className={styles.s_wrapper}>
                                 <a href='#' className={styles.social}>
-                                    <img src="./public/ig.svg" alt="" />
+                                    <img src="./ig.svg" alt="" />
                                 </a>
                                 <a href='#' className={styles.social}>
-                                    <img src="./public/tt.svg" alt="" />
+                                    <img src="./tt.svg" alt="" />
                                 </a>
                             </div>
                         </div>

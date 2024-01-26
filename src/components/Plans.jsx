@@ -5,7 +5,7 @@ const plans = [
     {
         id: 'visitante',
         title: 'Visitante',
-        icon: './public/headphones.svg',
+        icon: './headphones.svg',
         price: '129,90',
         advantages: <div className={styles.advantages}>
             <div className={styles.advantage}>
@@ -25,7 +25,7 @@ const plans = [
     {
         id: 'maromba',
         title: 'Maromba',
-        icon: './public/target.svg',
+        icon: './target.svg',
         price: '259,90',
         advantages: <div className={styles.advantages}>
         <div className={styles.advantage}>
@@ -53,23 +53,23 @@ const plans = [
     {
         id: 'focado',
         title: 'Focado',
-        icon: './public/loader.svg',
+        icon: './loader.svg',
         price: '189,90',
         advantages: <div className={styles.advantages}>
         <div className={styles.advantage}>
-            <img src="./public/included.svg" alt="" />
+            <img src="./included.svg" alt="" />
             <p>Treino 3x na semana</p>
         </div>
         <div className={styles.advantage}>
-            <img src="./public/included.svg" alt="" />
+            <img src="./included.svg" alt="" />
             <p>Horário livre</p>
         </div>
         <div className={styles.advantage}>
-            <img src="./public/included.svg" alt="" />
+            <img src="./included.svg" alt="" />
             <p>Acesso a 2 programas</p>
         </div>
         <div className={styles.advantage}>
-            <img src="./public/included.svg" alt="" />
+            <img src="./included.svg" alt="" />
             <p>Teste de carga gratuito</p>
         </div>
     </div>,

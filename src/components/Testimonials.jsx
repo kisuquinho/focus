@@ -7,21 +7,21 @@ const reviews = [
         name: 'Marina Dutra',
         job: 'Nutricionista',
         comment: '"A equipe dedicada e altamente qualificada da academia desempenha um papel fundamental na criação de uma experiência positiva para os membros. A academia focus promove uma abordagem integrada, equipe dedicada e instalações de alta qualidade."',
-        avatar: './public/julia.avif',
+        avatar: './julia.avif',
     },
     {
         id: 'bbb',
         name: 'Paulo Souza',
         job: 'Educador físico',
         comment: '"A Focus se destaca como uma referência para aqueles que buscam uma jornada de bem-estar físico e mental."',
-        avatar: './public/joao.avif',
+        avatar: './joao.avif',
     },
     {
         id: 'ccc',
         name: 'Joana Darc',
         job: 'Jornalista',
         comment: '"Estrutura qualificada e ambiente agradável."',
-        avatar: './public/joana.avif',
+        avatar: './joana.avif',
     },
 ];
 
