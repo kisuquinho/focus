@@ -11,12 +11,12 @@ const Programs = () => {
                 </div>
                 <div className={styles.programs_wrapper}>
                     <div className={styles.p_row}>
-                        <ProgramCard img={'./public/musc.avif'}>MUSCULAÇÃO</ProgramCard>
-                        <ProgramCard img={'./public/crosf.avif'}>CROSFIT</ProgramCard>
+                        <ProgramCard img={'./musc.avif'}>MUSCULAÇÃO</ProgramCard>
+                        <ProgramCard img={'./crosf.avif'}>CROSFIT</ProgramCard>
                     </div>
                     <div className={styles.p_row}>
-                        <ProgramCard img={'./public/zumb.avif'}>ZUMBA</ProgramCard>
-                        <ProgramCard img={'./public/pilat.avif'}>PILATES</ProgramCard>
+                        <ProgramCard img={'./zumb.avif'}>ZUMBA</ProgramCard>
+                        <ProgramCard img={'./pilat.avif'}>PILATES</ProgramCard>
                     </div>
                 </div>
             </div>
