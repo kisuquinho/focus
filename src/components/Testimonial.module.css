@@ -1,0 +1,25 @@
+.testimonial {
+  background-color: var(--clr-neutral-700);
+  border-radius: 20px;
+  padding: 32px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial p {
+  margin-top: 12px;
+}
+
+.profile {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.profile img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  outline: 2px solid var(--clr-neutral-300);
+}

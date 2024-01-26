@@ -1,0 +1,30 @@
+:root {
+  --ff-accent: "Barlow", sans-serif;
+  --ff-neutral: "Rubik", sans-serif;
+
+  --clr-primary: hsla(126, 100%, 59%, 1);
+
+  --clr-neutral-100: hsla(0, 0%, 95%, 1);
+  --clr-neutral-300: hsla(255, 10%, 75%, 1);
+  --clr-neutral-700: hsla(250, 10%, 7.5%, 1);
+  --clr-neutral-800: hsla(252, 10%, 5%, 1);
+  --clr-neutral-900: hsla(252, 0%, 0%, 1);
+
+  --grad-left-right: linear-gradient(
+    90deg,
+    hsla(126, 100%, 59%, 1) 0%,
+    hsla(126, 100%, 59%, 0) 100%
+  );
+
+  --grad-right-left: linear-gradient(
+    90deg,
+    hsla(126, 100%, 59%, 0) 0%,
+    hsla(126, 100%, 59%, 1) 100%
+  );
+
+  --grad-diag-top-rig-bot-lef: linear-gradient(
+    135deg,
+    rgba(45, 255, 66, 0) 0%,
+    #2dff42 100%
+  );
+}

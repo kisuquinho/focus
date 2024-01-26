@@ -1,0 +1,46 @@
+.hero {
+  background-image: url("../assets/man.avif");
+  background-size: cover;
+  background-position: right;
+  height: 626px;
+  width: 100%;
+  position: relative;
+}
+
+.hero div {
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    0deg,
+    hsla(252, 10%, 5%, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+@media screen and (min-width: 2000px) {
+  .hero {
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    background-size: cover;
+    background-position: 60%;
+  }
+}

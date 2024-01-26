@@ -1,0 +1,26 @@
+.programs_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  overflow: hidden;
+}
+
+.p_row {
+  display: 100%;
+  display: flex;
+  gap: 24px;
+}
+
+@media screen and (max-width: 720px) {
+  .p_row {
+    flex-direction: column;
+    padding: 0px 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .p_row {
+    padding: 0px 20px;
+  }
+}

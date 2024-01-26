@@ -1,0 +1,128 @@
+@import url("./Vars.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--clr-neutral-100);
+  font-family: var(--ff-neutral);
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--clr-neutral-800);
+  padding-bottom: 72px;
+}
+
+.section-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0px 40px;
+}
+
+header > .container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  z-index: 3;
+  width: fit-content;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: var(--ff-accent);
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 100%;
+  margin-bottom: 12px;
+}
+
+h1 > span {
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 100%;
+  font-family: var(--ff-accent);
+}
+
+h2 {
+  font-family: var(--ff-accent);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.t-wrapper {
+  display: flex;
+  position: relative;
+  margin-bottom: 36px;
+}
+
+.t-bg {
+  position: absolute;
+  bottom: 0;
+  width: 120%;
+  height: 8px;
+  background: var(--clr-primary);
+  transform: translate(-10%, -4px);
+  display: none;
+}
+
+h4 {
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+h5 {
+  color: var(--clr-neutral-300);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 200%;
+  text-align: center;
+  color: var(--clr-neutral-300);
+}
+
+#aaa {
+  grid-area: a;
+}
+
+#bbb {
+  grid-area: b;
+}
+
+#ccc {
+  grid-area: c;
+}

@@ -1,0 +1,19 @@
+.grid {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+  display: grid;
+  grid-template-areas:
+    "a b b"
+    "a c c";
+  gap: 28px;
+}
+
+@media screen and (max-width: 800px) {
+  .grid {
+    grid-template-areas:
+      "b"
+      "a"
+      "c";
+  }
+}

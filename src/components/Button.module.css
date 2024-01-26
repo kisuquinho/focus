@@ -1,0 +1,42 @@
+.button {
+  color: var(--clr-neutral-100);
+  font-family: var(--ff-neutral);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid var(--clr-primary);
+  background: var(--grad-right-left);
+  transition: 0.75s ease;
+  position: relative;
+  text-align: center;
+}
+
+.button:hover {
+  color: var(--clr-neutral-900);
+  background: var(--clr-primary);
+}
+
+.header {
+  padding: 4px 20px;
+}
+
+.hero {
+  padding: 10px 40px;
+  background: var(--grad-left-right);
+}
+
+.plan {
+  border: 0;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+  padding: 18px 0px;
+  background: var(--clr-neutral-800);
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+}
+
+#maromba {
+  padding: 21px 0px;
+}

@@ -1,0 +1,22 @@
+.plans {
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+  justify-content: start;
+}
+
+.advantage {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

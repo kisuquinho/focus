@@ -1,0 +1,68 @@
+.plan {
+  background-color: var(--clr-neutral-700);
+  border-radius: 20px;
+  border: 2px solid var(--clr-neutral-100);
+  padding: 36px;
+  padding-bottom: 73px;
+  position: relative;
+  max-width: 360px;
+  transition: 0.5s ease;
+}
+
+.plan:hover {
+  background-color: var(--clr-neutral-900);
+  border: 2px solid var(--clr-primary);
+}
+
+#maromba.plan {
+  padding-bottom: 79px;
+}
+
+.p_banner {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.p_b_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+h3 {
+  font-family: var(--ff-accent);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+h3 span {
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.price {
+  margin-top: 4px;
+  font-weight: 700;
+  font-size: 2.5rem;
+  position: relative;
+  padding-right: 35px;
+}
+
+.price::after {
+  position: absolute;
+  content: "/mês";
+  font-weight: 500;
+  font-size: 1rem;
+  transform: translate(0px, -6px);
+  margin-right: 100px;
+}
+
+.plan p {
+  color: var(--clr-neutral-100);
+  text-align: start;
+}
