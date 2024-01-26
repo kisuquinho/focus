@@ -40,8 +40,8 @@
 
 @media screen and (max-width: 600px) {
   .hero {
-    height: 360px;
+    height: 500px;
     background-size: cover;
-    background-position: 50%;
+    background-position: 60%;
   }
 }
